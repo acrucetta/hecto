@@ -3,6 +3,7 @@ mod editor;
 mod terminal;
 
 use editor::Editor;
+pub use terminal::Position;
 pub use terminal::Terminal;
 
 fn main() {
